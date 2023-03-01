@@ -1,0 +1,11 @@
+{
+  "name": "chess2.0",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ayoub Taouarda",
+  "license": "MIT"
+}
