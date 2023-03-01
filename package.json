@@ -4,8 +4,28 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc",
+    "lint": "eslint src/**",
+    "format": "prettier --write"
   },
   "author": "Ayoub Taouarda",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "chess",
+    "chess2",
+    "chess engine"
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "eslint": "^8.35.0",
+    "eslint-config-prettier": "^8.6.0",
+    "jest": "^29.4.3",
+    "prettier": "2.8.4",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  }
 }
