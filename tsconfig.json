@@ -10,7 +10,8 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitAny": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "moduleResolution": "node"
   },
-  "exclude": ["node_modules", "tests", "jest.config.ts"]
+  "exclude": ["node_modules", "__tests__", "jest.config.ts"]
 }
